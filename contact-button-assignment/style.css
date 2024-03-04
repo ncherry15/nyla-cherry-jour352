@@ -1,0 +1,67 @@
+/*
+MY COLOR PALETTE
+Color 1 - #231651
+Color 2 - #ebdccb
+Color 3 - #605b56
+Color 4 - #b2a3b5
+Color 5 - #5386e4
+*/
+
+// <uniquifier>: Use a unique and descriptive class name
+// <weight>: Use a value from 100 to 900
+
+.roboto-condensed-<uniquifier > {
+    font-family: "Roboto Condensed", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+}
+
+body {
+    background-color: #605b56;
+}
+
+.button {
+    border: none;
+    background-color: #231651;
+    color: #b2a3b5;
+    width: 150px;
+    font-size: 20px;
+    padding: 20px;
+    margin: 4px 2px;
+    border-radius: 15px;
+    font-family: "Roboto Condensed", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+}
+
+button:hover {
+    background-color: #5386e4;
+}
+
+h1 {
+    border: none;
+    background-color: #ebdccb;
+    color: #b2a3b5;
+    width: 200px;
+    font-size: 30px;
+    text-align: center;
+    font-family: "Roboto Condensed", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+}
+
+h2 {
+    border: none;
+    background-color: #ebdccb;
+    color: #b2a3b5;
+    width: 320px;
+    font-size: 20px;
+    text-align: center;
+    font-family: "Roboto Condensed", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+}
