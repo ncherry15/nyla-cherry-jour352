@@ -5,8 +5,10 @@
     }
 
     h1 {
-        font-family: "IBM Plex Sans Condensed", sans-serif;
-        font-size: 80px;
+        font-family: "Hanken Grotesk", sans-serif;
+        color:#231651;
+        font-size: 24px;
+        text-align: center;
     }
 
     #topper {
@@ -32,6 +34,75 @@
 
 @media (min-width: 576px) {
     h1 {
-        font-size: 100px;
+        font-size: 121px;
     }
+}
+
+#jobtitle {
+    color: #5386e4; 
+    font-weight: 900;
+    font-family: "IBM Plex Sans Condensed", sans-serif;
+}
+
+#jobinfo {
+    color:#ebdccb;
+    font-weight: 600;
+    font-family: "IBM Plex Sans Condensed", sans-serif;
+}
+
+#jobdescription {
+    color:#ebdccb;
+    font-weight: 500;
+    font-family: "IBM Plex Sans Condensed", sans-serif;
+    
+}
+
+h2 {
+    font-family: "Hanken Grotesk", sans-serif;
+    color: #231651;
+    text-align: center;
+}
+#skills {
+    color: #ebdccb;
+    font-weight: 500;
+    font-family: "IBM Plex Sans Condensed", sans-serif;
+}
+
+
+#school {
+     color: #5386e4; 
+    font-weight: 900;
+    font-family: "IBM Plex Sans Condensed", sans-serif;
+}
+
+#schoolinfo {
+    color: #ebdccb;
+    font-weight: 600;
+    font-family: "IBM Plex Sans Condensed", sans-serif;
+}
+h3 {
+    font-family: "Hanken Grotesk", sans-serif;
+    color: #231651;
+    font-weight: 1000;
+}
+
+#copyright {
+        background-color: #605b56;
+    color: #ebdccb;
+     font-family: "Hanken Grotesk", sans-serif;
+    }
+
+button {
+    border: none;
+    background-color: #5386e4;
+    color: #231651;
+    width: 150px;
+    font-size: 20px;
+    padding: 20px;
+    margin: 4px 2px;
+    border-radius: 15px;
+    font-family: "Hanken Grotesk", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
 }
