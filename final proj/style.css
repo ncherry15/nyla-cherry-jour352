@@ -19,6 +19,7 @@
     #headline {
         color: #74cae2;
         font-weight: bold;
+
     }
     #byline {
         color: #e5fb52;
@@ -29,18 +30,7 @@
         color: #e5fb52;
         font-weight: lighter;
     }
-    #topper2 {
-        padding: 0px;
-        margin: 0px;
-        position: relative;
-    }
 
-    #imgh1 {
-        padding: 10px 10px 10px 10px;
-        margin: 300px 100px 0px 0px;
-        background-color: #000000;
-        color: white;
-    }
 
     .caption {
         font-size: 12px;
@@ -62,12 +52,8 @@
         color: #f4f5ef;
     }
 
-    .inlineimage {
-        width: 100%;
-    }
 
     .pullquote {
-        border-left: 4px solid #74cae2;
         text-align: center;
         color: #7acb53;
         padding: 10px 30px 10px 30px;
@@ -79,18 +65,25 @@
         font-size: 30px;
     }
 
-    .attribution {
-    }
-
     .quotemark {
-        font-size: 110px;
+        font-size: 125px;
         float: left;
         line-height: 50px;
         font-family: "Bitter", serif;
-    }
+        color: #74cae2;
     }
     a {
         color: #7acb53;
+    }
+    #topper {
+        padding: 0px 0px 0px 0px;
+        margin: 0px 0px 0px 0px;
+    }
+    #head-byline {
+        text-align: center;
+    }
+    h1 {
+        font-size: 60px;
     }
 }
 
@@ -100,7 +93,7 @@
     }
 
     .pullquote {
-        width: 50%;
+        width: 100%;
     }
 }
 
